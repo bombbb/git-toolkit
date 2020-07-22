@@ -76,7 +76,7 @@ function build() {
 }
 # 执行提交
 function run() {
-    GIT_COMMIT_CMD="git commit -F $MSGFILE $ALL"
+    GIT_COMMIT_CMD="git commit -F $MSGFILE"
     echo $GIT_COMMIT_CMD
     eval $GIT_COMMIT_CMD
 }
